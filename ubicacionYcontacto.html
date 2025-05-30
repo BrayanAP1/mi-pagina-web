@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ubicación & Contacto - Farma ASBY</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contacto.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style/styleUbicacion.css">
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">
+      <img src="img/logo.jpg" alt="Farma ASBY" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productosYservicios.html">Productos & Servicios</a></li>
+      <li><a href="conocenos.html">Conócenos</a></li>
+      <li><a href="ubicacionYcontacto.html" class="active">Ubicación & Contacto</a></li>
+      <li><a href="juegoScratch.html">GameScratch</a></li>
+      <li><a href="kahoot.html">Kahoot</a></li>
+      <li><a href="appInventor.html">APP</a></li>
+    </ul>
+  </nav>
+
+  <!-- SECCIÓN DE CONTACTO -->
+  <section class="contact-section">
+    <div class="container">
+      <h1 class="section-title">Contáctanos</h1>
+      <div class="contact-content">
+        <!-- Información de contacto y mapa -->
+        <div class="contact-info">
+          <h2>Información de contacto</h2>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Santa Rosa del Sur, Bolívar, Colombia</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>+57 301 456 7890</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>contacto@farmaasby.com</p>
+            </div>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15928.783462139186!2d-75.36174119999999!3d7.9643025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a30f8b9ff3f3f%3A0x5f3b6d476b422c7a!2sSanta%20Rosa%20del%20Sur%2C%20Bol%C3%ADvar%2C%20Colombia!5e0!3m2!1ses-419!2sco!4v1714938416534!5m2!1ses-419!2sco"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <!-- Formulario de contacto -->
+        <div class="contact-form">
+          <h2>Envíanos un mensaje</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Correo electrónico" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Tu mensaje..." rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Farma ASBY</h4>
+        <p>Comprometidos con tu salud y bienestar. Visítanos o haz tu pedido en línea.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productosYservicios.html">Productos</a></li>
+          <li><a href="conocenos.html">Conócenos</a></li>
+          <li><a href="ubicacionYcontacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <ul>
+          <li><i class="fas fa-phone"></i> +57 301 456 7890</li>
+          <li><i class="fas fa-envelope"></i> contacto@farmaasby.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> Santa Rosa del Sur, Bolívar</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Síguenos</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Farma ASBY. Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <script src="js/contacto.js"></script>
+</body>
+
+</html>

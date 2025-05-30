@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farma ASBY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style/styleIndex.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">
+      <img src="img/logo.jpg" alt="Farma ASBY" style="height: 40px;">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productosYservicios.html">Productos & Servicios</a></li>
+      <li><a href="conocenos.html">Conócenos</a></li>
+      <li><a href="ubicacionYcontacto.html">Ubicación & Contacto</a></li>
+      <li><a href="juegoScratch.html">GameScratch</a></li>
+      <li><a href="kahoot.html">Kahoot</a></li>
+      <li><a href="appInventor.html">APP</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Bienvenidos a Farma ASBY</h1>
+      <a href="productosYservicios.html" style="margin-right:5px;"><button>Hacer Pedido</button></a>
+    </div>
+  </section>
+
+ <section class="lema" id="conocenos">
+  <div class="lema-wrapper">
+    <!-- COLUMNA IZQUIERDA -->
+    <div class="lema-left">
+      <h2 class="lema-title">Nuestro Compromiso</h2>
+      <p class="lema-text">En Farma ASBY trabajamos con dedicación para brindarte salud, confianza y calidad. Porque tu bienestar es nuestra mayor prioridad.</p>
+      <div class="lema-content">
+        <img src="img/farmeceutico.png" alt="farmacéutico">
+        <img src="img/medicamentos.png" alt="medicinas">
+        <img src="img/cuidadoPersonal.png" alt="cuidado">
+      </div>
+      <a href="ubicacionYcontacto.html"><button class="contact-btn">Contáctanos</button></a>
+    </div>
+
+    <!-- COLUMNA DERECHA -->
+    <div class="lema-right">
+      <div class="video-container">
+        <iframe width="100%" height="315" src="videos/Talking Photo.mp4"
+          title="Video institucional Farma ASBY" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CARRUSEL -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/carrusel1.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="img/carrusel2.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="img/carrusel3.jpeg" alt=""></div>
+    </div>
+  </div>
+
+  <!-- FOOTER PROFESIONAL -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Farma ASBY</h4>
+        <p>Comprometidos con tu salud y bienestar. Visítanos o haz tu pedido en línea.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#conocenos">Conócenos</a></li>
+          <li><a href="#ubicacion">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <ul>
+          <li>📞 +57 300 123 4567</li>
+          <li>📧 contacto@farmaasby.com</li>
+          <li>📍 Calle Salud #123, Bogotá</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Síguenos</h4>
+        <ul style="display: flex; gap: 10px; padding-top: 0.5rem;">
+          <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="24"
+                alt="Facebook"></a></li>
+          <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" width="24"
+                alt="Instagram"></a></li>
+          <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="24"
+                alt="WhatsApp"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 Farma ASBY. Todos los derechos reservados.
+    </div>
+  </footer>
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      slidesPerView: 1,
+      spaceBetween: 10,
+    });
+  </script>
+
+</body>
+
+</html>

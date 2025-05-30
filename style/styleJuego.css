@@ -1,0 +1,38 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+
+    .exit-button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: #004C99;
+      color: white;
+      border: none;
+      padding: 24px 40px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .exit-button:hover {
+      background-color: #0066cc;
+    }
